@@ -15,6 +15,8 @@
 		F00A449D2334CEFE00F857B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00A449B2334CEFE00F857B6 /* LaunchScreen.storyboard */; };
 		F00A44A82334CEFE00F857B6 /* Ems_MyappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A44A72334CEFE00F857B6 /* Ems_MyappTests.swift */; };
 		F00A44B32334CEFE00F857B6 /* Ems_MyappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A44B22334CEFE00F857B6 /* Ems_MyappUITests.swift */; };
+		F00A44C12334DB0700F857B6 /* Redscene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A44C02334DB0700F857B6 /* Redscene.swift */; };
+		F00A44C32334DB2500F857B6 /* GreenScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A44C22334DB2500F857B6 /* GreenScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F00A44AE2334CEFE00F857B6 /* Ems-MyappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ems-MyappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00A44B22334CEFE00F857B6 /* Ems_MyappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ems_MyappUITests.swift; sourceTree = "<group>"; };
 		F00A44B42334CEFE00F857B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00A44C02334DB0700F857B6 /* Redscene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redscene.swift; sourceTree = "<group>"; };
+		F00A44C22334DB2500F857B6 /* GreenScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				F00A449B2334CEFE00F857B6 /* LaunchScreen.storyboard */,
 				F00A449E2334CEFE00F857B6 /* Info.plist */,
 				F00A44962334CEFD00F857B6 /* Ems_Myapp.xcdatamodeld */,
+				F00A44C02334DB0700F857B6 /* Redscene.swift */,
+				F00A44C22334DB2500F857B6 /* GreenScene.swift */,
 			);
 			path = "Ems-Myapp";
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00A44C32334DB2500F857B6 /* GreenScene.swift in Sources */,
 				F00A44982334CEFD00F857B6 /* Ems_Myapp.xcdatamodeld in Sources */,
 				F00A44922334CEFD00F857B6 /* ViewController.swift in Sources */,
+				F00A44C12334DB0700F857B6 /* Redscene.swift in Sources */,
 				F00A44902334CEFD00F857B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
